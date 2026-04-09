@@ -2,8 +2,21 @@
 
 instances:
   - url: sifath-mannan-demo.docs.buildwithfern.com
+announcement:
+  message: "Welcome to the Fern take home docs assignment →"
 
-title: Sample | Documentation
+navbar-links:
+  - type: minimal
+    text: Learn More
+    href: https://buildwithfern.com
+  - type: minimal
+    text: Plants
+    href: /
+  - type: filled
+    text: About Us
+    href: /
+
+title: Plant Store | Documentation
 
 layout:
   searchbar-placement: header
