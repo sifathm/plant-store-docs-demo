@@ -32,6 +32,12 @@ navigation:
   - tab: api-reference
     layout:
       - api: API Reference
+        playground:
+          environments:
+            - id: Production
+              url: https://api.plantstore.dev/v3
+            - id: Sandbox
+              url: https://sandbox.api.plantstore.dev/v3
   - tab: instructions
     layout:
       - page: Instructions
