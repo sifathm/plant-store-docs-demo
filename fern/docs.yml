@@ -2,21 +2,8 @@
 
 instances:
   - url: sifath-mannan-demo.docs.buildwithfern.com
-announcement:
-  message: "Welcome to the Fern take home docs assignment →"
 
-navbar-links:
-  - type: minimal
-    text: Learn More
-    href: https://buildwithfern.com
-  - type: minimal
-    text: Plants
-    href: /
-  - type: filled
-    text: About Us
-    href: /
-
-title: Plant Store | Documentation
+title: Sample | Documentation
 
 layout:
   searchbar-placement: header
@@ -45,12 +32,8 @@ navigation:
   - tab: api-reference
     layout:
       - api: API Reference
-        playground:
-          environments:
-            - id: Production
-              url: https://api.plantstore.dev/v3
-            - id: Sandbox
-              url: https://sandbox.api.plantstore.dev/v3
+      
+  
   - tab: instructions
     layout:
       - page: Instructions
