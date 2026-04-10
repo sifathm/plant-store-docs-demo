@@ -1,35 +1,43 @@
-# Fern Work Sample Demo
+# Plant Store API Docs
 
-You'll be modifying the contents of this repository to create a demo Fern website for a mock Plant Store company. In this scenario, we will be showing the Plant Store company this website, along with the repository used to generate the website, so be sure to keep the repository clean and ready to show a potential client. Prospective customers evaluate docs on ease of use, styling and custom features (more on this later).
+This is a demo documentation site I built for a mock Plant Store API using Fern + OpenAPI. The goal was to create something that feels clean, easy to navigate, and actually useful if you were a developer trying to use the API.
 
-Follow the steps in this `README.md` to get started.
+## What this is
 
-## 1. Installation
+The API lets you manage plants, search inventory, and handle basic user actions. The docs are meant to make it really straightforward to understand how everything works without digging through messy specs.
 
-To start, install the Fern CLI: 
+## What I included
 
-```
-npm install -g fern-api
-```
+- Full API reference with endpoints like `/plant`, search routes, and user auth
+- A webhook (`plant.created`) with a real example payload
+- A Python code sample for `POST /plant` using requests
+- Production + Sandbox environments set up in the API
+- A custom landing page instead of the default template
+  
+## Project structure
 
-This will allow you to use Fern in the terminal to check and publish your demo site. 
+- fern/api.yml
+- fern/docs.yml
+- fern/fern.config.json
+- fern/docs/pages/landingpage.mdx
+- fern/docs/pages/instructions.mdx
 
-## 2. Project Naming
 
-Fern requires you to specify a unique organization name and website domain to generate a project. 
+## Running it locally
 
-First, update the organization name defined in the [`fern.config.json`](/fern/fern.config.json) file to something other than `sample-demo-site`. As an example, you could use `firstName-lastName-demo`
+npm install -g fern-api  
+fern docs dev  
 
-Next, update _only the first subdomain_ of the `url` field defined in the [`docs.yml`](/fern/docs.yml) file to something other than `sample-demo-site`. The resulting URL should look something like `firstName-lastName-demo.docs.buildwithfern.com` and publish the docs site.
+Then open http://localhost:3000
 
-## 3. Complete the Work Sample
+## Live site
 
-Complete the steps outlined in the [Overview page](/fern/pages/overview.mdx).
+https://sifath-mannan-demo.docs.buildwithfern.com
 
-## 4. Push to a GitHub Repository
+## If I had more time
 
-Publish the contents of this folder to a GitHub repository. Be sure to remove any unnecessary files. 
+I’d add more sections to the landing page so it feels a bit more complete and improve navigation between sections. I’d also expand the API explorer with more edge cases and examples.
 
-## 5. Replace this README.md
+## Notes
 
-Finally, since we'll be showing the fake Plant Store company this repository during the demo, replace the contents of this `README.md` with some helpful instructions for getting started and using the project. 
+This was my first time using Fern, so a lot of this was learning how the docs and OpenAPI pieces fit together. It gave me a better sense of how developer documentation should actually feel to use.
