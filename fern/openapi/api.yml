@@ -1,8 +1,6 @@
 openapi: 3.1.0
 servers:
   - url: https://api.plantstore.dev/v3
-    description: Demo server
-  - url: https://api.plantstore.dev/v3
     description: Production
     x-fern-server-name: Production
   - url: https://sandbox.api.plantstore.dev/v3
