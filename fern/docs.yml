@@ -32,8 +32,6 @@ navigation:
   - tab: api-reference
     layout:
       - api: API Reference
-      
-  
   - tab: instructions
     layout:
       - page: Instructions
