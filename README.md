@@ -37,7 +37,3 @@ https://sifath-mannan-demo.docs.buildwithfern.com
 ## If I had more time
 
 I’d add more sections to the landing page so it feels a bit more complete and improve navigation between sections. I’d also expand the API explorer with more edge cases and examples.
-
-## Notes
-
-This was my first time using Fern, so a lot of this was learning how the docs and OpenAPI pieces fit together. It gave me a better sense of how developer documentation should actually feel to use.
